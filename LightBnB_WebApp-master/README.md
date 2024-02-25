@@ -34,11 +34,14 @@ A simple multi-page Airbnb clone that uses a server-side Javascript to display t
 │   ├── _header.scss
 │   ├── _property-listings.scss
 │   └── main.scss
+├── docs
+│   └── LightBnB ERD.png
 ├── .gitignore
 ├── package-lock.json
 ├── package.json
 ├── README.md
 └── server.js
+
 ```
 
 * `db` contains all the database interaction code.
@@ -54,3 +57,4 @@ A simple multi-page Airbnb clone that uses a server-side Javascript to display t
 * `routes` contains the router files which are responsible for any HTTP requests to `/users/something` or `/api/something`. 
 * `styles` contains all of the sass files. 
 * `server.js` is the entry point to the application. This connects the routes to the database.
+* `docs` includes a png of the ERD that I have created before starting this project.
